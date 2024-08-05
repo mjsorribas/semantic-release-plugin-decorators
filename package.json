@@ -1,9 +1,9 @@
 {
   "name": "semantic-release-plugin-decorators",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "type": "module",
   "main": "src/index.js",
-  "repository": "git@github.com:Updater/semantic-release-plugin-decorators.git",
+  "repository": "git@github.com:mjsorribas/semantic-release-plugin-decorators.git",
   "publishConfig": {
     "access": "public"
   },
