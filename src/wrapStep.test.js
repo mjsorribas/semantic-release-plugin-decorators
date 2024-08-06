@@ -31,8 +31,8 @@ describe('#wrapStep', () => {
         plugins: []
       },
       logger: {
-        log: jest.fn(),
-      },
+        log: jest.fn()
+      }
     };
 
     describe('and any of the step functions in the array are ran', () => {
@@ -77,14 +77,14 @@ describe('#wrapStep', () => {
           [
             '@semantic-release/commit-analyzer',
             {
-              preset: 'angular',
-            },
-          ],
-        ],
+              preset: 'angular'
+            }
+          ]
+        ]
       },
       logger: {
-        log: jest.fn(),
-      },
+        log: jest.fn()
+      }
     };
 
     describe('and the step functions up to index n are run', () => {

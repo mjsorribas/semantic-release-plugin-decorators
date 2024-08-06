@@ -8,7 +8,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module'
   },
-  extends: ['eslint:recommended', 'airbnb-base', 'prettier'],
+  extends: ['eslint:recommended', 'prettier'],
   plugins: ['prettier'],
   rules: {
     'import/extensions': [0, 'ignorePackages', { js: 'never', jsx: 'never' }],
@@ -20,4 +20,3 @@ module.exports = {
     'no-spaced-func': 0
   }
 };
-
